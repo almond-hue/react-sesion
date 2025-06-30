@@ -19,7 +19,7 @@ function Owner() {
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
 
         <img
-          src="https://static.vecteezy.com/system/resources/previews/023/984/924/original/smiling-business-woman-png.png" 
+          src="../photome.jpeg" 
           alt="Foto de Perfil"
           style={{ borderRadius: '50%', width: '200px', height: '200px', objectFit: 'cover', border: '3px solid #007bff' }}
         />
@@ -27,16 +27,17 @@ function Owner() {
 
       {/* nombre*/ }
       <p style={{ fontSize: '1.2em', marginBottom: '10px' }}>
-        <strong>Nombre:</strong> Natalia Urzúa </p>
+        <strong>Nombre:</strong> Natalia Berenice Urzúa Ramos </p>
 
       {/* Correo/Contacto */}
       <p style={{ fontSize: '1.2em', marginBottom: '10px' }}>
-        <strong>Contacto:</strong> <a href="natalia.urzua@hotmail.com" style={{ color: '#007bff', textDecoration: 'none' }}>natalia.urzua@.com</a>
+        <strong>Contacto:</strong> <a href="natalia.urzua@hotmail.com" style={{ color: '#007bff', textDecoration: 'none' }}>natalia.urzua@hotmail.com</a> <br />
+        <a href="https://www.linkedin.com/in/nataliaurzua/"> Linkedin</a>
       </p>
 
       {/* Descripción */}
       <p style={{ fontSize: '1.2em', lineHeight: '1.6' }}>
-        <strong>Sobre mí:</strong> Soy una desarrolladora web apasionada.
+        <strong>Sobre mí:</strong> Soy una desarrolladora web apasionada idk.
       </p>
 
       <hr style={{ margin: '30px 0', borderColor: '#eee' }} />
@@ -51,7 +52,7 @@ function Owner() {
           ))}
         </ul>
       ) : (
-        <p>No hay películas favoritas añadidas aún.</p>
+        <p></p>
       )}
 
        
